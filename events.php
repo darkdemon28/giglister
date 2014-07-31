@@ -44,6 +44,7 @@ include 'fbconfig.php';
             <p class="event-start-time"><span class="strong">Starting at:</span> <?php echo($start_time); ?></p>
             <p class="event-date"><span class="strong">Date:</span> <?php echo($event_date); ?></p>
             <p class="event-venue"><span class="strong">Venue address:</span> <?php echo($venue); ?></p>
+            <p class="event-link"><span class="strong">Link:</span> <?php echo(get_link($event_id, $authToken)); ?></p>
         </div>
         <div class="clearer"></div>
     </div>
